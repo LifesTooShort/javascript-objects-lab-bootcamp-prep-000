@@ -15,7 +15,7 @@ function deleteFromObjectByKey(object, key) {
   // create a new object that's a clone of the passed in object
   var newObj = Object.assign({}, object);
   
-  delete newObj.['key'];
+  delete newObj[key];
   return newObj;
   
   
